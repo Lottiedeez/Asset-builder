@@ -1,0 +1,31 @@
+import React from "react";
+
+function Homepage() {
+  return (
+    <div className="bg-gray-100 min-h-screen">
+      <header className="bg-blue-600 text-white p-4">
+        <h1 className="text-3xl font-bold">Asset Builder</h1>
+        <p className="text-lg">Create, Manage, and Share Your Digital Assets</p>
+      </header>
+      <main className="p-6">
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold">Features</h2>
+          <ul className="list-disc pl-6">
+            <li>Drag-and-Drop Uploads</li>
+            <li>Advanced Search and Filters</li>
+            <li>Dynamic Previews</li>
+            <li>Collaboration Tools</li>
+          </ul>
+        </section>
+        <section>
+          <h2 className="text-2xl font-semibold">Get Started</h2>
+          <button className="bg-blue-600 text-white px-4 py-2 rounded">
+            Sign Up Now
+          </button>
+        </section>
+      </main>
+    </div>
+  );
+}
+
+export default Homepage;
