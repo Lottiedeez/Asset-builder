@@ -1,0 +1,21 @@
+/asset-builder-platform
+├── /client               # Frontend (React)
+│   ├── /src
+│   │   ├── /components   # Reusable UI components
+│   │   ├── /pages        # Pages (e.g., Homepage, Upload, Dashboard)
+│   │   ├── /styles       # CSS or Tailwind styles
+│   │   ├── App.js        # Main React app
+│   │   └── index.js      # Entry point
+│   └── package.json      # Frontend dependencies
+├── /server               # Backend (Node.js + Express)
+│   ├── /controllers      # API logic
+│   ├── /models           # Database schemas
+│   ├── /routes           # API routes
+│   ├── server.js         # Main server file
+│   └── package.json      # Backend dependencies
+├── /shared               # Shared code (e.g., constants, utilities)
+├── /uploads              # Local asset storage (for development)
+├── .gitignore            # Ignore unnecessary files
+├── README.md             # Project overview
+├── LICENSE               # License file
+└── .env.example          # Example environment variables
